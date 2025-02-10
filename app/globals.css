@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth !important;
+  /* scroll-snap-type: y mandatory; */
+}
+
+body {
+  margin: 0;
+  direction: rtl;
+  scroll-behavior: smooth !important;
+  width: 100% !important;
+  overflow-x: hidden !important;
+  max-width: 100% !important;
+  font-weight: 300;
+  overflow-x: hidden;
+}
+main{
+  width: 95vw;
+  max-width: 1280px;
+  margin: 0 auto;
+}
